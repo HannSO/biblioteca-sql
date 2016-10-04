@@ -50,7 +50,8 @@
   VALUES("Hannah Smozbourne");
 
   INSERT INTO checkout_item(book_id, member_id)
-  VALUES(11,43);
+  VALUES((select id from book where title = "The Pragmatic Programmer"),
+   (select id from member where name = "Hannah Smozborne"));
 --
 -- "CHECKING:"
   select member.name
