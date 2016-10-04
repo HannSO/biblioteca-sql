@@ -71,11 +71,5 @@
   group by member_id
   having count(*)>1)
 
-  --Anand Beck
---  Frank Smith
-
-
-
-
--- ANSWER= 1
--- 6
+  --ANSWER: Anand Beck
+  --Frank Smith
